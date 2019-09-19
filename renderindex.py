@@ -135,7 +135,7 @@ def html_generator(data):
 def main():
     data = extractor("stories.csv")
     html = html_generator(data)
-    with open('docs/index.html', 'w') as fh:
+    with open('index.html', 'w') as fh:
         fh.write(html)
 
 main()
